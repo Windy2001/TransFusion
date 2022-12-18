@@ -264,7 +264,7 @@ log_config = dict(
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
 work_dir = None
-load_from = 'checkpoints/fusion_voxel0075_R50.pth'
+load_from = 'work_dirs/transfusion_nusc_voxel_L/latest.pth'
 resume_from = None
 workflow = [('train', 1)]
 gpu_ids = range(0, 8)
